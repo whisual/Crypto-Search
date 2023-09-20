@@ -1,0 +1,28 @@
+.flex-container{
+
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.main-img{
+    width: 20%;
+    padding: 5rem;
+}
+
+.main-contents{
+    padding-top: 5rem;
+    width: 75%;
+    padding-right: 5rem ;
+    
+    
+    
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+#coin-description{
+    text-align: justify;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto app</title>
+    <link rel="stylesheet" href="./assets/css/common.css"/>
+    <link rel="stylesheet" href="./assets/css/detail.css"/>
+    <link rel="shotcut icon" href="./assets/Images/cryptocurrency.png" type="image/png" />
+
+</head>
+<body>
+
+
+        <!-- This is for navigation bar -->
+        <nav>
+            <img src="./assets/Images/cryptocurrency.png" alt="logo" class="logo-img"/>
+            <h1 class="d-inline title ml-1" id="main-title">CryptoView</h1>
+            <button class="f-right nav-button" id="nav-search-button">Search</button>
+         </nav>
+
+
+         <!-- The description section -->
+         <section class="flex-container">
+            <img src="./assets/Images/cryptocurrency.png" id="coin-logo" alt="coin logo" class="main-img"/>
+            <div class="main-contents">
+                <h1 class="mb-1 color-yellow" id="coin-name">BitCoin</h1>
+                <div class="flex-container space-around mb-1 mt-1">
+                    <p>₹ <span id="inr-price">...</span></p>
+                    <p>$ <span id="usd-price">...</span></p>
+                    <p>€ <span id="eur-price">...</span></p>
+                    <p>£ <span id="gbp-price">...</span></p>
+                   
+                </div>
+                    <h3 class="mt-1">description:</h3><br>
+                    <p id="coin-description">...</p>
+                
+
+            </div>
+
+         </section>
+
+
+         <!-- Price chart Section -->
+
+         <section class="ml-5 mr-5">
+            <h1 class="color-yellow mb-1 mt-1">Price History</h1>
+            <canvas id="myChart" width="100" height="25"></canvas>
+        </section>
+         
+         <!-- This is for the footer -->
+         <footer>
+
+            <p> &copy; CryptoView : Developed By Niraj Patil </p>
+    
+            <a class="d-inline" href="https://www.github.com" target="_blank" >
+                <img src="./assets/Images/github.png" alt="github logo" class="footer-img f-right"/>
+            </a>
+         </footer>
+
+         <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+        <script src="./assets/js/detail.js"> </script>
+        <script src="./assets/js/common.js"> </script>
+        
+</body>
+</html>

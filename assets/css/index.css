@@ -1,0 +1,55 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-item{
+    width: 50%;
+}
+
+.main-img{
+    width: 75%;
+}
+
+.flex-harizontal{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    animation: slide 10s linear infinite alternate;
+    position: relative;
+    
+         
+}
+
+@keyframes slide {
+   0%{
+        right: 0px;
+    }
+    
+    100%{
+        right:  100%;
+    }
+}
+
+
+
+
+.card-image{
+    height: 2rem;
+    padding: 0.5rem 1rem 0.5rem;
+
+}
+
+.flex-item-small{
+    max-width: 13rem;
+    max-height: 5rem;
+    display: flex;    
+    font-size: x-small;
+}
+
+
+.top-coins{
+
+    overflow: hidden;
+}
